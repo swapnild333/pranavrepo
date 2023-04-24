@@ -78,7 +78,7 @@ app.post('/check-port', (req, res) => {
                 return;
             }
             console.log(`stdout: ${stdout}`);
-            output = stdout
+            // output = stdout
         })
 
         response.on('close', (code) => {
